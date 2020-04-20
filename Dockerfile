@@ -24,7 +24,7 @@ RUN apt-get update \
 
 # Sensible default environment values for AzuraCast instances
 ENV MYSQL_HOST="mariadb" \
-    MYSQL_PORT=3306 \
+    MYSQL_PORT=3307 \
     MYSQL_USER="azuracast" \
     MYSQL_PASSWORD="azur4c457" \
     MYSQL_DATABASE="azuracast" \
